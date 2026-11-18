@@ -20,7 +20,7 @@ on conflict (id) do update set role = 'admin';
 
 
 
-const IS_PREVIEW = true; // Ubah menjadi false SAAT DEPLOY agar mode preview & data dummy hilang dan terhubung 100% ke Supabase
+const IS_PREVIEW = false; // Ubah menjadi false SAAT DEPLOY agar mode preview & data dummy hilang dan terhubung 100% ke Supabase
 const SUPABASE_URL = "https://ujimjaddjsurhmizgmwq.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_rHZYGOnCtEVZsCMyG5ELMg_0OHU4WeT";
 const TEMPLATE_URL = "https://docs.google.com/document/d/1ZiWk-n4Kz8W2jOWDZAfcPFgsX0LICIzm/edit?usp=sharing&ouid=107856581458706219784&rtpof=true&sd=true"; // (opsional) link unduh Template_Soal_CBT.docx yang Anda unggah ke Google Drive/hosting
